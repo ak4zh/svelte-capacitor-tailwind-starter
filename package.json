@@ -1,6 +1,6 @@
 {
 	"name": "svelte-capacitor-tailwind-starter",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"description": "Create lightning fast cross-platform apps !",
 	"license": "MIT",
 	"author": {
@@ -16,8 +16,7 @@
 		"open:ios:project": "npm run build && npm run sync && npx cap open ios",
 		"run:ios:simualtor": "npm run build && npm run sync && npx cap run ios",
 		"check": "svelte-check --tsconfig ./tsconfig.json",
-		"preview": "vite preview",
-		"deploy:github:pages": "node ./gh-pages.cjs"
+		"preview": "vite preview"
 	},
 	"dependencies": {
 		"@capacitor/android": "^3.4.0",
@@ -29,7 +28,6 @@
 		"svelte-routing": "^1.6.0"
 	},
 	"devDependencies": {
-		"gh-pages": "^3.2.3",
 		"@commitlint/cli": "^16.1.0",
 		"@commitlint/config-conventional": "^16.0.0",
 		"@mdi/js": "^6.5.95",
