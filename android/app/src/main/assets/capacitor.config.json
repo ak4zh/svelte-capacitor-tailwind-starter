@@ -1,0 +1,13 @@
+{
+	"appId": "sveltecapacitortailwindstarter.fr",
+	"appName": "svelte-capacitor-tailwind-starter",
+	"webDir": "dist",
+	"bundledWebRuntime": false,
+	"backgroundColor": "#000",
+	"android": {
+		"backgroundColor": "#000"
+	},
+	"ios": {
+		"backgroundColor": "#000"
+	}
+}

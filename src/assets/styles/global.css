@@ -1,0 +1,27 @@
+@font-face {
+	font-family: 'Inter-Black';
+	src: url('/fonts/Inter-Black.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Inter-Medium';
+	src: url('/fonts/Inter-Medium.ttf') format('truetype');
+}
+
+body {
+	@apply bg-white dark:bg-black text-black dark:text-white font-body;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+	@apply text-black dark:text-white font-heading;
+}
+
+.centered-flex {
+	@apply flex justify-center items-center;
+}
