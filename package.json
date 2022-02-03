@@ -16,7 +16,8 @@
 		"open:ios:project": "npm run build && npm run sync && npx cap open ios",
 		"run:ios:simualtor": "npm run build && npm run sync && npx cap run ios",
 		"check": "svelte-check --tsconfig ./tsconfig.json",
-		"preview": "vite preview"
+		"preview": "vite preview",
+		"deploy:github:pages": "node ./gh-pages.cjs"
 	},
 	"dependencies": {
 		"@capacitor/android": "^3.4.0",

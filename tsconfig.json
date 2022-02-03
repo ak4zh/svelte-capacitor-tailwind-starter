@@ -27,5 +27,5 @@
 			"$routes/*": ["src/routes/*"]
 		}
 	},
-	"include": ["src/**/*.d.ts", "src/**/*.ts", "src/**/*.js", "src/**/*.svelte", "gh-pages.js"]
+	"include": ["src/**/*.d.ts", "src/**/*.ts", "src/**/*.js", "src/**/*.svelte", "gh-pages.cjs"]
 }
